@@ -27,6 +27,25 @@
 :root {
 }
 
+/* Outrank Base.astro's unlayered, scoped header styles. */
+:root header.site-header {
+	background: #241710;
+	color: #fff3d6;
+	border-bottom-color: #403026;
+}
+
+:root header.site-header .site-title,
+:root header.site-header .nav-links a,
+:root header.site-header .nav-admin {
+	color: #fff3d6;
+}
+
+:root header.site-header .site-title:hover,
+:root header.site-header .nav-links a:hover,
+:root header.site-header .nav-admin:hover {
+	color: #ffffff;
+}
+
 /* Keep the signed-in Admin link separated from the primary navigation. */
 .nav-admin {
 	margin-inline-start: var(--spacing-5);
