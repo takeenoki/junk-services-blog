@@ -35,4 +35,8 @@ export default defineConfig({
 		},
 	],
 	devToolbar: { enabled: false },
+	i18n: {
+    	defaultLocale: "ja",
+		locales: ["ja"],
+	},
 });
